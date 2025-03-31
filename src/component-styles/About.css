@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+.abtImgCont {
+  background-image: url("/images/illustration.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.reveal-trigger {
+  @apply border rounded-full px-5 py-0 mt-2;
+}

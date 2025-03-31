@@ -1,0 +1,29 @@
+@keyframes draw {
+  from {
+    stroke-dashoffset: 500;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes fill {
+  from {
+    fill: transparent;
+  }
+  to {
+    fill: #e4ded7;
+  }
+}
+
+.animate-draw {
+  stroke-dasharray: 500;
+  stroke-dashoffset: 500;
+  animation: draw 4s ease-out forwards 0.5s, fill 1s ease-out 3.5s forwards;
+}
+
+@media (min-width: 1024px) {
+  .animate-draw {
+    animation: draw 10s ease-out forwards 0.5s, fill 1s ease-out 4s forwards;
+  }
+}

@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+.image-container {
+  background-image: url("/images/avatartion.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}

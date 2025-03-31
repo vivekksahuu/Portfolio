@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Mona+Sans:ital,wght@0,200..900;1,200..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Syne:wght@400..800&display=swap");
+
+@import "tailwindcss";
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  @apply w-full min-h-full overflow-x-hidden;
+}
+
+body {
+  @apply bg-[#E8E8E3];
+}
+
+.flex-center {
+  @apply flex justify-center items-center;
+}
+
+.flex-between-center {
+  @apply flex justify-between items-center;
+}
+
+.preloadText,
+.nav-link,
+.mailContainer,
+.extLinkContainer,
+.heading,
+.subHeading,
+.ctaText,
+.ctaButton,
+.aboutSection *,
+.project-section *,
+.contact-section * {
+  font-family: "Syne";
+}
+
+.navName {
+  font-family: "Mona Sans";
+}

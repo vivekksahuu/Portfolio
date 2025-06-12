@@ -49,7 +49,7 @@ const Home = React.forwardRef((_, ref) => {
             font-bold text-center 
             text-2xl lg:text-4xl 2xl:text-6xl"
           >
-            Frontend Developer
+            Software Developer
           </p>
         </div>
       </div>

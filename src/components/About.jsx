@@ -122,27 +122,27 @@ const About = React.forwardRef((_, ref) => {
           >
             <p className="text-[#ccccc3] text-lg lg:text-xl leading-8 lg:leading-12">
               <AboutDescription
-                label="Frontend"
-                text=" developer based in Mumbai, India dedicated to building modern, responsive, and user-friendly web interfaces."
-                keyName="Frontend"
+                label="Software"
+                text=" developer based in Mumbai, India passionate about delivering modern, responsive, and user-friendly web interfaces and solutions."
+                keyName="Software"
                 revealText={revealText}
               />
               <AboutDescription
                 label="Graduated"
-                text=" in 2024, and chose web development as my career path. Currently I "
+                text=" in 2024 with a with a Bachelor's degree in Computer Science, and currently "
                 keyName="graduated"
                 revealText={revealText}
               />
               <AboutDescription
                 label="specialize"
-                text=" in JavaScript, jQuery, React.js, Tailwind CSS, and GSAP. As I "
-                keyName="focusing"
+                text=" in frontend technologies, with expertise in JavaScript, jQuery, React.js, Zustand, Tailwind CSS, and GSAP. I'm always striving to grow as a developer and am currently "
+                keyName="specialize"
                 revealText={revealText}
               />
               <AboutDescription
-                label="progress"
-                text=" in my career, I plan to expand my skill set by learning other web technologies to gain a deeper understanding of web development."
-                keyName="progress"
+                label="expanding"
+                text="  my skills into backend development to gain a more comprehensive understanding of the full web stack. I'm eager to contribute to dynamic teams and deliver high-quality digital experiences."
+                keyName="expanding"
                 revealText={revealText}
               />
             </p>

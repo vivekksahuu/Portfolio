@@ -123,13 +123,13 @@ const About = React.forwardRef((_, ref) => {
             <p className="text-[#ccccc3] text-lg lg:text-xl leading-8 lg:leading-12">
               <AboutDescription
                 label="Software"
-                text=" developer based in Mumbai, India passionate about delivering modern, responsive, and user-friendly web interfaces and solutions."
+                text=" developer based in Mumbai, India passionate about delivering modern, responsive, and user-friendly web interfaces and solutions. "
                 keyName="Software"
                 revealText={revealText}
               />
               <AboutDescription
                 label="Graduated"
-                text=" in 2024 with a with a Bachelor's degree in Computer Science, and currently "
+                text=" in 2024 with a Bachelor's degree in Computer Science, and currently "
                 keyName="graduated"
                 revealText={revealText}
               />

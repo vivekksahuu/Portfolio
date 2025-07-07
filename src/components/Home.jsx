@@ -92,7 +92,7 @@ const Home = React.forwardRef((_, ref) => {
             </a>
 
             <a
-              href="/files/Resume.pdf"
+              href="/files/Vivek Sahu.pdf"
               target="_blank"
               className=" ctaButton 
               text-sm md:text-[1rem] lg:text-xl 2xl:text-4xl
